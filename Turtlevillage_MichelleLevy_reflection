@@ -1,0 +1,13 @@
+TURTLE VILLAGE REFLECTION:
+One place I used a while loop for was in the functions that took in user input. This is because the purpose
+of those functions such as ask_choice_str() and ask_choice_int() is to keep on taking in user inputs until
+the user enters a valid input. A while loop is the best fit for this because while loops keep repeating until
+a certain condition is met. When it came to drawing the roads, horizontally and vertically, for loops were used
+because the process of drawing the lines had to be done a fixed amount of times in order to get the right amount.
+A for loop is used when you want an action to be repeated a specific amount of times. I used try/except for the
+ask_choice_int function when the program converts the user input into type int because if the user doesn't enter
+an integer, it will cause an error when trying to convert something that is not an integer into type int. I guarded
+against a value error that can cause my program to crash if handled incorrectly. When it came to line spacing and
+line length limits, I decided to break pep 8 rules for the sake of greater clarity and readability in my code. I 
+like to use extra blank lines between functions and separate blocks in order to differentiate between them. I also
+like to use long inline comments because if I break them up, the reader will have a hard time reading them.
